@@ -1,0 +1,16 @@
+# Transcript log required by AGENTS.md — never commit
+log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Derived prediction-context artifacts (regenerate with code/context_json.py)
+context_json/
+
